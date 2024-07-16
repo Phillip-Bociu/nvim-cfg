@@ -12,8 +12,6 @@ return {
 			'hrsh7th/nvim-cmp',
 		},
 	},
-	'williamboman/mason.nvim',
-	'williamboman/mason-lspconfig.nvim',
 	'neovim/nvim-lspconfig',
 	"luisiacc/handmade-hero-theme",
 	{
@@ -21,7 +19,7 @@ return {
 		as = 'cmp',
 	},
 	{
-		'hrsh7th/cmp-buffer'
+		'hrsh7th/cmp-buffer',
 		dependencies = {
 			'hrsh7th/nvim-cmp',
 		},
