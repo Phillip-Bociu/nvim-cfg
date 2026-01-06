@@ -149,7 +149,7 @@ return require('lazy').setup({
 		lazy = false,
 		config = function()
 			vim.cmd("colorscheme vscode")
-            vim.o.background = "light"
+            vim.o.background = "dark"
 		end
 	},
 
