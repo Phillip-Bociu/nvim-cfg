@@ -1,7 +1,8 @@
 return {
     cmd = {
-        'W:\\llvm\\bin\\clangd.exe',
+        'clangd',
         '--enable-config',
+        '--clang-tidy',
     },
     filetypes = {"cpp", "c", "h", "hpp"},
 }

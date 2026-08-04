@@ -11,7 +11,7 @@ vim.api.nvim_create_autocmd({ 'BufReadPost', 'BufNewFile' }, {
     callback = function()
         vim.pack.add({
             'https://github.com/nvim-treesitter/nvim-treesitter-textobjects',
-            { src = 'https://github.com/nvim-treesitter/nvim-treesitter', version = 'master' },
+            { src = 'https://github.com/nvim-treesitter/nvim-treesitter', version = 'main' },
         })
         require("nvim-treesitter.configs").setup({
             sync_install = false,
